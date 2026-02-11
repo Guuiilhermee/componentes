@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/icons/formIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Meus Componentes</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#">
+                <img src="../imagens/perfil-IMG.png" alt="Imagem de Perfil" class="perfil-img">
+            </a>
+
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="tipografia.html">Tipografia</a></li>
+                <li><a href="cards.html">Cards</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="form.html">Formulário</a></li>
+                <li><a href="botoes.html">Botões</a></li>
+                <li><a href="tabelas.html">Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1>Meus Componentes</h1>
+
+        <section>
+            <h2>Entre em contato</h2>
+
+            <div class="row">
+                <form action="">
+                    <div class="row">
+                        <div>
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" id="name" placeholder="Nome completo">
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" autocomplete="off">
+                        </div>
+                    </div>
+
+                    <label for="message">Digite sua mensagem</label>
+                    <textarea name="message" id="message" rows="6"></textarea>
+
+                    <input type="submit" value="Enviar" class="btn">
+                </form>
+                <address>
+                    <p><b>Endereço</b>: Rua das Palmeiras, 742 - Bairro Centro, São Paulo - SP, 01234-567</p>
+                    <p><b>Telefone</b>: (11) 91234-5678</p>
+                    <p><b>E-mail</b>: contato.exemplo@emailteste.com</p>
+                </address>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
