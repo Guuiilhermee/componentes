@@ -36,7 +36,7 @@ h2{
 .highlight{
     border-left: 1px solid var(--primary-color);
     font-size: 1.1em;
-    padding-left: 2em;
+    padding: 0 0 0 2em;
     margin-bottom: 2.2em;
 }
 
@@ -133,4 +133,32 @@ a{
     display: flex;
     gap: 3rem;
     padding-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.row > *{
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0%; */
+    flex: 1 0 0%;
+}
+.alternates{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.alternates li{
+    padding: 0;
+}
+
+.alternates li:not(:last-child){
+    border-bottom: 2px solid;
+}
+
+.roman{
+    list-style-type: upper-roman;
+}
+
+.list-emoji{
+    list-style-type: "\1F602";
 }
