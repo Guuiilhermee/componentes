@@ -58,6 +58,32 @@
                 </address>
             </div>
         </section>
+
+        <section>
+            <h2>Quiz</h2>
+
+            <form action="" class="form-quiz">
+                <label for="tech">Qual é sua linguagem preferida?</label>
+                <select name="tech" id="tech">
+                    <option value="null">Selecione</option>
+                    <option value="js">JAVASCRIPT</option>
+                    <option value="python">PYTHON</option>
+                    <option value="php">PHP</option>
+                </select>
+
+                <label>Baixa Prioridade <input type="radio" name="priority" value="low"></label>
+                <label>Média Prioridade <input type="radio" name="priority" value="normal"></label>
+                <label>Alta Prioridade <input type="radio" name="priority" value="high"></label>
+
+                <label> <input type="checkbox" name="copy" value="true"> Envie-me uma cópia</label>
+                <label> <input type="checkbox" name="human" value="true"> Sou um humano</label>
+
+                <div class="row">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar" class="btn btn-stroke">
+                </div>
+            </form>
+        </section>
     </main>
 </body>
 </html>
